@@ -1,3 +1,35 @@
+# Team and Contributors
+Name: Strange Attractors
+Contributors: Marcio Maciel Bastos - Mosqlimate
+
+# Repository Structure
+The repository contains the notebook used to generate the predictions
+
+# Libraries and Dependencies
+1- Pandas
+2- Numpy
+3- Pyro
+4- Pytorch
+
+# Data and Variables
+This project uses official IBGE shapefiles (📎 https://www.ibge.gov.br/geociencias/downloads-geociencias.html) to compute inter-city distances. Population was resampled to a weekly cadence and short-term forecasts were generated so the series aligns with the prediction horizon.
+
+## Variables included:
+
+Pairwise distance matrix between Brazilian municipalities (from IBGE shapefiles)
+Weekly infections (from the challenge dataset)
+Weekly population estimates, including near-future projections to match the forecasting task.
+
+# Model Training
+The model was trained with SVI optimization.
+
+# Data Usage Restriction
+As mentioned before, a short population prediction was applied to align with the forecast horizon.
+
+# Prediction Uncertainty
+As the model was pure Baysian, the predicted interval was computed with posterior sampled credibility intervals. 
+
+
 # 2024 Infodengue-Mosqlimate dengue Forecast Sprint
 ![sprint](sprint.jpeg)
 
