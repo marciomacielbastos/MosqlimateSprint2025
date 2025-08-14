@@ -151,14 +151,6 @@ The model is a **Bayesian state-level time-series forecasting model** combining:
 
 ---
 
-## Results
-
-Forecast evaluation scores are available in:
-
-```
-scores/scores.md
-```
-
 ---
 
 ## Contact
