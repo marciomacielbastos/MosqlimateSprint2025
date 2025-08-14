@@ -125,7 +125,7 @@ where $\lambda_{s,t}$ is the latent expected infection probability, and $\sigma$
 Seasonality is captured using a **Fourier-wrapped Gaussian** over epidemiological weeks:
 
 $$
-\text{Season}_t = \alpha_s \cdot \exp\!\left( - \frac{ \left[ \min\big(|t - \mu|,\, 52 - |t - \mu|\big) \right]^2 }{ 2\sigma_\text{season}^2 } \right)
+\text{Season}_t = \alpha_s \cdot \exp\left( - \frac{ \left[ \min\big(|t - \mu|,\, 52 - |t - \mu|\big) \right]^2 }{ 2\sigma_\text{season}^2 } \right)
 $$
 
 * $\mu$ = peak week of dengue season (global or state-specific)
