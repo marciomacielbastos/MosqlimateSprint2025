@@ -50,7 +50,7 @@ The following Python libraries are required to run the model and reproduce resul
   * Compute **pairwise inter-city distances** between Brazilian municipalities.
   * Map each municipality to its corresponding state.
 * **Population Data**
-  Weekly population estimates for each municipality, derived from annual IBGE data:
+  Weekly population estimates for each municipality, derived from yearly municipality population present in the the challenge dataset.
 
   * Resampled to weekly cadence.
   * Short-term projections generated to align with forecast horizons.
