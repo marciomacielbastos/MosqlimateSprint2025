@@ -36,7 +36,7 @@ The following Python libraries are required to run the model and reproduce resul
 * **Visualization & Debugging**
 
   * `matplotlib`
-  * `seaborn` *(optional)*
+  * `seaborn`
 
 ---
 
