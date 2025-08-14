@@ -1,4 +1,4 @@
-# 2024 Infodengue-Mosqlimate Dengue Forecast Sprint
+# 2025 Infodengue-Mosqlimate Dengue Forecast Sprint
 
 **Team: Strange Attractors**
 **Contributor:** Marcio Maciel Bastos – Mosqlimate
@@ -168,4 +168,4 @@ For questions or collaboration:
 * **Name:** Marcio Maciel Bastos
 * **email** marciobastos@fisica.ufc.br
 * **Platform:** [Mosqlimate](https://api.mosqlimate.org/)
-* **Challenge:** [Infodengue-Mosqlimate Forecast Sprint](https://docs.google.com/document/d/1KL3ngVuF2HwNSxswd0jqKeJun9eoYGsvzuaq_eF8NAI/edit)
+* **Challenge:** [Infodengue-Mosqlimate Forecast Sprint]([https://docs.google.com/document/d/1KL3ngVuF2HwNSxswd0jqKeJun9eoYGsvzuaq_eF8NAI/edit](https://sprint.mosqlimate.org/))
