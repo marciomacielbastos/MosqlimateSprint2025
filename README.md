@@ -139,8 +139,11 @@ $$
 The gravity term models cross-state influence, proportional to population and inversely proportional to distance:
 
 $$
-\text{Gravity}_{s,t} = \sum_{\substack{s'=1 \\ s' \neq s}}^S \beta \cdot \frac{N_{s',t}^\eta \; r_{s',t-\ell}}{d_{s,s'}^\gamma}
+\mathrm{Gravity}_{s,t} =
+\sum_{s'=1}^{S} \mathbf{1}[s' \ne s]\;
+\beta \,\frac{N_{s',t}^{\eta}\, r_{s',t-\ell}}{d_{s,s'}^{\gamma}}
 $$
+
 
 * $\beta$ = global scaling coefficient for imported infections
 * $\eta$ = exponent controlling influence of source population
